@@ -1,0 +1,22 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "description": "just test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss -o src/public/css"
+  },
+  "author": "tihen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
